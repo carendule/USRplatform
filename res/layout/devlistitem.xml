@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:orientation="horizontal">
+    <TextView
+        android:id="@+id/listname"
+        android:layout_width="140dp"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:text="暂无数据"
+        android:textSize="15dp"/>
+    <TextView
+        android:id="@+id/listonline"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="140dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="5dp"
+        android:text="离线"
+        android:textSize="20dp"
+        android:textColor="#000000" />
+    <ImageView
+        android:id="@+id/listimage"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/reddot" />
+
+
+</LinearLayout>

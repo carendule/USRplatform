@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">北斗服务</string>
+    <string name="Netcheck">网络连接错误\n请检查网络后重启</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+</resources>

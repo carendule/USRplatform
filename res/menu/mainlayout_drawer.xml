@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/OfflineMap"
+            android:icon="@drawable/offline"
+            android:title="离线地图" />
+        <item
+            android:id="@+id/ChangeMap"
+            android:icon="@drawable/radio"
+            android:title="切换地图"/>
+        <item
+            android:id="@+id/CarMark"
+            android:icon="@drawable/carmark"
+            android:title="标记位置"/>
+        <item
+            android:id="@+id/HistoryData"
+            android:icon="@drawable/history"
+            android:title="历史数据"
+            />
+        <item
+            android:id="@+id/Location"
+            android:icon="@drawable/location"
+            android:title="查询路径"/>
+        <item
+            android:id="@+id/CleanMap"
+            android:icon="@drawable/rubber"
+            android:title="清除标记"/>
+
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+        </menu>
+    </item>
+
+</menu>
